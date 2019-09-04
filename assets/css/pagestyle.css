@@ -1,0 +1,343 @@
+textarea.markdown
+{
+	visibility: hidden;
+}
+
+div.content
+{
+	line-height: 2 !important;
+}
+
+td
+{
+	text-align: left !important;
+}
+
+input
+{
+	display: inline !important;
+}
+
+ol li
+{
+	margin-bottom: 3px;
+}
+
+img
+{
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+div.footer b
+{
+	color: #8c604c;
+}
+
+div.footer
+{
+	z-index: 999;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	margin-right: 0px !important;
+
+	text-align:center;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width:100%;
+	color: #8c604c;
+	cursor: default;
+
+	/*border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;*/
+}
+
+.footer_text
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+a.footer_item
+{
+	text-decoration:none;
+	display:inline-block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:0px;
+	margin-bottom:15px;
+	/*font-family: DejaVu Sans Mono, Liberation Mono, Consolas, Ubuntu Mono, Courier New;*/
+	font-size: 100%;
+	color:#A8A8A8 !important;
+}
+
+a.footer_item:hover
+{
+	color:white !important;
+}
+
+a.bb
+{
+	text-decoration:none;
+
+	outline: 0;
+	color:#409adb;
+
+	transition-property: color;
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
+a.bb:hover
+{
+	color:#305da6;
+
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	transition:0.3s;
+}
+
+a.gh
+{
+	text-decoration:none;
+
+	outline: 0;
+	color:grey;
+
+	transition-property: color;
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
+a.gh:hover
+{
+	color:#1F1F1F;
+
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	transition:0.3s;
+}
+
+a.gl
+{
+	text-decoration:none;
+
+	outline: 0;
+	color:#e88523;
+
+	transition-property: color;
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
+a.gl:hover
+{
+	color:#b87a1d;
+
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	transition:0.3s;
+}
+
+a.discord
+{
+	text-decoration:none;
+
+	outline: 0;
+	color:#2e2a2a;
+
+	transition-property: color;
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
+a.discord:hover
+{
+	color:#524d4d;
+
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	transition:0.3s;
+}
+
+a.irc
+{
+	text-decoration:none;
+
+	outline: 0;
+	color:#e6e7e8;
+
+	transition-property: color;
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
+a.irc:hover
+{
+	color:#adb4ba;
+
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	transition:0.3s;
+}
+
+a.teemill
+{
+	text-decoration:none;
+
+	outline: 0;
+	color:#88d45f;
+
+	transition-property: color;
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
+a.teemill:hover
+{
+	color:#58d117;
+
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	transition:0.3s;
+}
+
+a.gitter
+{
+	text-decoration:none;
+
+	outline: 0;
+	color:#e322bc;
+
+	transition-property: color;
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
+a.gitter:hover
+{
+	color:#8f1576;
+
+	-o-transition:0.3s;
+	-ms-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	transition:0.3s;
+}
+
+
+mono
+{
+	font-family: DejaVu Sans Mono, Liberation Mono, Consolas, Ubuntu Mono, Courier New;
+	font-size: 85%;
+	color: #484848;
+	background:#abbad9;
+}
+
+br
+{
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+table
+{
+	/*border: 1px solid black !important;*/
+	max-width:100%;
+	margin-left:20px;
+	margin-right:20px;
+	margin:0 auto;
+	/*max-width:800px;*/
+	text-align: center;
+	
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*font-family: DejaVu Sans Mono, Liberation Mono, Consolas, Ubuntu Mono, Courier New;*/
+	/*font-size: 100%;*/
+	color:#A8A8A8 !important;
+}
+
+th
+{
+	padding-top: 4px !important;
+	padding-bottom:5px !important;
+	text-align: center !important;
+}
+
+td
+{
+	padding-top:3px !important;
+	padding-bottom:5px !important;
+}
+
+noselect
+{
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ 	background: #2e3141; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+ 	background: #4c5c96; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ 	background: #2d3059; 
+}
