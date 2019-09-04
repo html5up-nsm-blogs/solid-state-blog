@@ -1,0 +1,24 @@
+<!-- Footer -->
+	<section id="footer">
+		<div class="inner">
+			<div class="footer">
+				<div class="footer_text"><b>Solid State Blog Template</b></div>
+
+				<noselect>
+					<img src="@pathtofile(site/img/nsm.png)" width="100px" style="margin-bottom:20px"> <br>
+				</noselect>
+
+				<b>Mirrors:</b> 
+				[<a href="https://html5up-nsm-blogs.github.io/solid-state-blog" class="footer_item">GitHub</a>] 
+				[<a href="https://html5up-nsm-blogs.gitlab.io/solid-state-blog" class="footer_item">GitLab</a>] 
+
+				<p style="margin-top:0px; margin-bottom: 0px">
+					<small><b>Site Manager:</b> <a class="footer_item" href="https://nift.cc">Nift</a></small>
+				</p>
+
+				<noselect>
+					<small>&copy;&nbsp;2015 - @loadYYYY <a class="footer_item" href="https://n-ham.com/">Nicholas Ham</a></small>
+				</noselect>
+			</div>
+		</div>
+	</section>

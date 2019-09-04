@@ -1,0 +1,14 @@
+<!-- Wrapper -->
+<section id="wrapper">
+	<header>
+		<div class="inner">
+			<h2>Title</h2>
+		</div>
+	</header>
+
+	<!-- Content -->
+	<div class="wrapper">
+		<div class="inner">
+		</div>
+	</div>
+</section>

@@ -1,0 +1,42 @@
+<!-- Wrapper -->
+<section id="wrapper">
+	<header>
+		<div class="inner">
+			<div class="logo"><span class="icon fa-gem"></span></div>
+			<h2>Blog</h2>
+		</div>
+	</header>
+
+	<!-- Content -->
+	<div class="wrapper">
+		<div class="inner">
+			<div class="content">
+				<center><h2>Contents</h2></center>
+				<table style="margin-bottom:25px">
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th>Title</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>14/05/2019</td>
+							<td><a href="@pathto(blog/post02)">Post 2</a>: A project I recently finished</td>
+						</tr>
+						<tr>
+							<td>03/02/2019</td>
+							<td><a href="@pathto(blog/post01)">Post 1</a>: My first blog post</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th>Date</th>
+							<th>Title</th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>

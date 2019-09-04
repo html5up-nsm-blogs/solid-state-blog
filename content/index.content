@@ -1,0 +1,39 @@
+<!-- Wrapper -->
+<section id="wrapper">
+	<header>
+		<div class="inner">
+			<div class="logo"><span class="icon fa-gem"></span></div>
+			<h2>Solid State Blog</h2>
+			<p>A <a href="https://nift.cc">Nift</a> blog repository template.</p>
+		</div>
+	</header>
+
+	<!-- Content -->
+	<div class="wrapper">
+		<div class="inner">
+			<div class="content">
+				<textarea class="markdown">
+					## Solid State Blog Repository Template
+					This is the homepage for the nsm blog repository template **solid-state-blog** [[BitBucket](https://bitbucket.org/html5up-nsm-blogs/solid-state-blog), [GitHub](https://github.com/html5up-nsm-blogs/solid-state-blog), [GitLab](https://gitlab.com/html5up-nsm-blogs/solid-state-blog)]. [Nift](https://nift.cc) (aka nsm) is a cross-platform open source git-like and $\LaTeX$-like site manager coded in C++.
+
+					This website uses [Showdown](http://showdownjs.com/) to convert Markdown to HTML.
+
+					You can import (or fork and rename) the **solid-state-blog** blog repository template to begin making your own website with the same design.
+				</textarea>
+			</div>
+		</div>
+	</div>
+
+	<!-- Four -->
+	<section class="wrapper style3">
+		<div class="inner">
+			<div class="content">
+				<textarea class="markdown">
+					See the [About](@pathto(about)) page for information about adding/removing pages to/from your site and modifying the content/layout of your site.
+
+					See the [FAQ](@pathtopage(faq)) page for how to import/fork this repository along with answers to other frequently asked questions.
+				</textarea>
+			</div>
+		</div>
+	</section>
+</section>
