@@ -11,6 +11,7 @@
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<link rel="stylesheet" href="../assets/css/pagestyle.css" />
+		<link rel="stylesheet" href="../assets/css/blog.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="../assets/css/pre.css" />
 		
@@ -38,7 +39,7 @@
 			    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
 		</script>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload="setup()">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -79,7 +80,9 @@
 					<div class="wrapper">
 						<div class="inner">
 							<div class="content">
-								Markdown content goes here, you could put it in a new markdown file *blog/post02.md* if you wanted and then have &commat;input(blog/post02.md). Or you could move the &lt;textarea&gt; tags in to the page template **template/page.template** and set the default extension in *.siteinfo/nsm.config* to **.md**. You may also like to play with the css for headers to have them automatically centre, that way your Markdown headers will be centred.
+								<textarea class="markdown">
+									Markdown content goes here, you could put it in a new markdown file *blog/post02.md* if you wanted and then have &commat;input(blog/post02.md). Or you could move the &lt;textarea&gt; tags in to the page template **template/page.template** and set the default extension in *.siteinfo/nsm.config* to **.md**. You may also like to play with the css for headers to have them automatically centre, that way your Markdown headers will be centred.
+								</textarea>
 							</div>
 						</div>
 					</div>
