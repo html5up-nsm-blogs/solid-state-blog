@@ -3,6 +3,7 @@
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 <link rel="stylesheet" href="@pathtofile(site/assets/css/main.css)" />
 <link rel="stylesheet" href="@pathtofile(site/assets/css/pagestyle.css)" />
+<link rel="stylesheet" href="@pathtofile(site/assets/css/blog.css)" />
 <noscript><link rel="stylesheet" href="@pathtofile(site/assets/css/noscript.css)" /></noscript>
 <link rel="stylesheet" href="@pathtofile(site/assets/css/pre.css)" />
 
