@@ -5,7 +5,7 @@
 				<div class="footer_text"><b>Solid State Blog Template</b></div>
 
 				<noselect>
-					<img src="@pathtofile(site/img/nsm.png)" width="100px" style="margin-bottom:20px"> <br>
+					<img src="@pathtofile($[output-dir]/img/nsm.png)" width="100px" style="margin-bottom:20px"> <br>
 				</noselect>
 
 				<b>Mirrors:</b> 
